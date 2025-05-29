@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", function () {
         chatbotInput.value = '';
 
         try {
-            // --- ATENÇÃO: ESTA URL DEVE SER ATUALIZADA MANUALMENTE ---
+            // --- ATENÇÃO: ESTA URL DEVE SER ATUALIZADA MANUALMENTE --
             // 1. Depois de fazer o deploy do SEU BACKEND no Render.com,
             // 2. Copie a URL REAL do seu Web Service (ex: https://seu-backend.onrender.com)
             // 3. Cole-a abaixo, adicionando "/chat" no final.

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revitaliza Portal de Arembepe</title>
+    <link rel="icon" href="public/img/logo1.png" type="image/x-icon">
+    <link rel="stylesheet" href="public/styles.css"> 
+</head>
+<body>
+    <header>
+        <img src="public/img/logo1.png" alt="Logo do Portal de Arembepe" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h1>Participe da Transformação do Portal de Arembepe!</h1>
+        <p>Nosso condomínio precisa de ações coletivas para revitalização, limpeza e preservação ambiental. Vamos juntos?</p>
+    </section>
+
+    <section id="beneficios">
+        <h2>Por que agir agora e o que está em risco?</h2>
+        <ul>
+            <li><strong>Benefícios de agir:</strong></li>
+            <li class="txt">1. Valorização dos imóveis com um ambiente mais limpo e organizado.</li>
+            <li class="txt">2. Redução de doenças com o controle do lixo e entulho acumulado.</li>
+            <li class="txt">3. Convivência mais harmoniosa em áreas comuns seguras e preservadas.</li>
+            <li class="txt">4. Maior contato com a natureza e incentivo à educação ambiental.</li>
+            <li><strong>Malefícios da inação:</strong></li>
+            <li class="txt">1. Proliferação de insetos e animais peçonhentos devido ao lixo e mato alto.</li>
+            <li class="txt">2. Degradação de áreas comuns e vias internas.</li>
+            <li class="txt">3. Desvalorização do bairro e afastamento de investimentos.</li>
+            <li class="txt">4. Conflitos entre moradores sobre responsabilidades não assumidas.</li>
+        </ul>
+    </section>
+
+    <section id="processo">
+        <h2>Medidas Propostas</h2>
+        <p>Vamos atuar juntos com mutirões, sinalização educativa, lixeiras apropriadas, comunicação direta com a administração e envolvimento das famílias nas ações.</p>
+        <img src="public/img/ciclo.png" alt="Plano de ações sustentáveis e revitalizadoras">
+    </section>
+
+    <section id="depoimentos">
+        <h2>O que os moradores querem mudar:</h2>
+        <blockquote>"Precisamos cuidar das áreas verdes que ainda temos aqui." - Morador(a) Anônimo</blockquote>
+        <blockquote>"É hora de limpar, plantar e recuperar nosso espaço!" - Morador(a) Engajado</blockquote>
+    </section>
+
+    <section id="contato">
+        <h2>Envie suas ideias ou dúvidas</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Seu Nome" required>
+            <input type="email" id="email" placeholder="Seu Email" required>
+            <textarea id="message" placeholder="Sua Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="responseMessage"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Projeto Comunitário - Portal de Arembepe. Todos os direitos reservados.</p>
+    </footer>
+
+    <button id="chatbot-button">AI</button>
+
+    <div id="chatbot-container">
+        <div class="chatbot-header">
+            AI Ajudante do Portal
+            <button class="chatbot-close-button">X</button>
+        </div>
+        <div class="chatbot-messages" id="chatbot-messages">
+            </div>
+        <div class="chatbot-input-area">
+            <input type="text" id="chatbot-input" placeholder="Digite sua pergunta...">
+            <button id="chatbot-send-button">➔</button>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="public/script.js"></script>
+</body>
+</html>
